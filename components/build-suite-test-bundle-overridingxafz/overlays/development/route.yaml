@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: build-suite-test-bundle-overridingxafz
     app.kubernetes.io/part-of: test-app-fstv
-  name: build-suite-test-bundle-opxjj
+  name: build-suite-test-bundle-o8tyj
 spec:
   port:
     targetPort: 8081
