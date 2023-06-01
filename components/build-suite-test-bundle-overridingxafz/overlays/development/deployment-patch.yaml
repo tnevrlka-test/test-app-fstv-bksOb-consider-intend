@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: build-suite-test-bundle-overridingxafz
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-skfz-tenant/test-app-fstv/build-suite-test-bundle-overridingxafz@sha256:55f6c500f0e805a55e69a0e6dd7ead59aa056adecfa492f32eecc1da19b67263
+        name: my-nginx
+        resources: {}
+status: {}

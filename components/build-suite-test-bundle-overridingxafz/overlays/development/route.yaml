@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: build-suite-test-bundle-overridingxafz
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: build-suite-test-bundle-overridingxafz
+    app.kubernetes.io/part-of: test-app-fstv
+  name: build-suite-test-bundle-osxkn
+spec:
+  port:
+    targetPort: 8081
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: build-suite-test-bundle-overridingxafz
+    weight: 100
+status: {}
